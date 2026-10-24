@@ -3,7 +3,7 @@
 - 38 notes plus 11 execution-flow diagrams in total.
 - Maintained by a senior backend developer (IBM / Ping An Puhui, microservices & messaging).
 
-**Java 源码学习笔记（基于JDK 8/16、Spring 5、Spring Boot 2、RocketMQ 4.x、Redis 源码）**
+<font color="#F27200">**Java 源码学习笔记（基于JDK 8/16、Spring 5、Spring Boot 2、RocketMQ 4.x、Redis 源码）**</font>
 
 笔记类型：
 
