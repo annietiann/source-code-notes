@@ -9,8 +9,6 @@
 - ③ 类继承图
 - ④ 场景对比表
 
-**内容地图**
-
 **0. JVM（jvm/）**
 - [Hotspot 启动流程（JDK16）](0.%20jvm/1.%20Hotspot_Launch_Process_JDK16.pdf) —— main.c → JLI_Launch → JVMInit → 新线程继续执行主干链
 - [Hotspot 启动流程（JDK8）](0.%20jvm/2.%20Hotspot_Launch_Process_JDK8.pdf) —— 与 JDK16 版对照阅读，**双版本文件路径与结构差异**
