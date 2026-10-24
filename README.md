@@ -1,6 +1,6 @@
-Java source-code reading notes based on JDK 8/16, Spring 5, Spring Boot 2, RocketMQ 4.x and Redis.  
-Each topic is documented as call chains traced from the entry method (exhaustive branches), overall flow summaries (text or diagrams), class hierarchy charts, and cross-comparison tables — 38 notes plus 11 execution-flow diagrams in total.  
-Maintained by a senior backend developer (IBM / Ping An Puhui, microservices & messaging).
+- Java source-code reading notes based on JDK 8/16, Spring 5, Spring Boot 2, RocketMQ 4.x and Redis.
+- Each topic is documented as call chains traced from the entry method (exhaustive branches), overall flow summaries (text or diagrams), class hierarchy charts, and cross-comparison tables — 38 notes plus 11 execution-flow diagrams in total.
+- Maintained by a senior backend developer (IBM / Ping An Puhui, microservices & messaging).
 
 **Java 源码学习笔记（基于JDK 8/16、Spring 5、Spring Boot 2、RocketMQ 4.x、Redis 源码）**
 
