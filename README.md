@@ -1,6 +1,6 @@
 **Java 源码学习笔记（基于JDK 8/16、Spring 5、Spring Boot 2、RocketMQ 4.x、Redis 源码）**
 
-笔记内容：
+笔记类型：
 
 - ① 调用链（入口方法出发，穷尽分支）
 - ② 整体流程（文字概括 or 流程图）
