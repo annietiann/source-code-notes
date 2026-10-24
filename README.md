@@ -15,14 +15,14 @@
 共 38 篇笔记 + 11 张流程图
 
 **0. JVM**
-- [Hotspot启动流程JDK16](0.%20jvm/1.%20Hotspot_Launch_Process_JDK16.pdf) jvm的初始化,main方法的执行,类加载过程
-- [Hotspot启动流程JDK8](0.%20jvm/2.%20Hotspot_Launch_Process_JDK8.pdf)
-- [Heap初始化JDK8](0.%20jvm/3.%20Heap_Init_JDK8.pdf) 新生代/老年代的初始化,GC线程的创建,并发标记过程,Major GC和Full GC
-- [对象分配与GC触发策略](0.%20jvm/4.%20CMS_G1_详细过程_JDK8.pdf) 
+- [Hotspot启动流程Jdk16](0.%20jvm/1.%20Hotspot_Launch_Process_JDK16.pdf) jvm的初始化,main方法的执行,类加载过程
+- [Hotspot启动流程Jdk8](0.%20jvm/2.%20Hotspot_Launch_Process_JDK8.pdf)
+- [Heap初始化Jdk8](0.%20jvm/3.%20Heap_Init_JDK8.pdf) 新生代/老年代的初始化,GC线程的创建,并发标记过程,Major GC和Full GC
+- [Heap分配内存与GC](0.%20jvm/4.%20Heap分配内存与GC_JDK8.pdf)
+- [CMS GC流程Jdk8](0.%20jvm/7.%20GC_CMS_JDK8.svg)
+- [G1 GC流程Jdk8](0.%20jvm/7.%20GC_G1_JDK8.svg)
 - [CMS vs G1](0.%20jvm/5.%20CMS_vs_G1.pdf)
 - [类加载](0.%20jvm/6.%20Class_Loading.pdf) 从.class文件到InstanceKlass实例
-- [CMS GC流程JDK8](0.%20jvm/7.%20GC_CMS_JDK8.svg)
-- [G1 GC流程JDK8](0.%20jvm/7.%20GC_G1_JDK8.svg)
 
 **1. 并发编程**
 - [Synchronized的一切](1.%20concurrency/1.%20Synchronized.pdf) 锁膨胀过程
