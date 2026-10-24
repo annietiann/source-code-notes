@@ -18,7 +18,7 @@
 - [Hotspot启动流程Jdk16](0.%20jvm/1.%20Hotspot_Launch_Process_JDK16.pdf) jvm的初始化,main方法的执行,类加载过程
 - [Hotspot启动流程Jdk8](0.%20jvm/2.%20Hotspot_Launch_Process_JDK8.pdf)
 - [Heap初始化Jdk8](0.%20jvm/3.%20Heap_Init_JDK8.pdf) 新生代/老年代的初始化,GC线程的创建,并发标记过程,Major GC和Full GC
-- [Heap分配内存与GC](0.%20jvm/4.%20Heap分配内存与GC过程_JDK8.pdf)
+- [Heap分配内存与GC](0.%20jvm/4.%20Heap分配内存与GC_JDK8.pdf)
 - [CMS GC流程Jdk8](0.%20jvm/7.%20GC_CMS_JDK8.svg)
 - [G1 GC流程Jdk8](0.%20jvm/7.%20GC_G1_JDK8.svg)
 - [CMS vs G1](0.%20jvm/5.%20CMS_vs_G1.pdf)
