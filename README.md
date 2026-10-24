@@ -1,6 +1,4 @@
-**Java 源码学习笔记**
-
-基于JDK 8/16、Spring 5、Spring Boot 2、RocketMQ 4.x、Redis 源码
+**Java 源码学习笔记（基于JDK 8/16、Spring 5、Spring Boot 2、RocketMQ 4.x、Redis 源码）**
 
 笔记内容：
 
