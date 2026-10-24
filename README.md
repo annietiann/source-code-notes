@@ -60,9 +60,9 @@
 - [MultipartResolver 文件上传](4.%20spring/5.%20MultipartResolver.pdf)
 - [全局异常处理](4.%20spring/6.%20GlobalExceptionHandler.pdf)
 - [Spring Boot 启动流程](4.%20spring/7.%20spring_boot_1_startup.pdf)
-- [属性绑定](4.%20spring/7.%20spring_boot_2_propertiesBinding.pdf)
-- [事务](4.%20spring/7.%20spring_boot_3_transaction.pdf) —— 回滚规则与传播行为
-- [定时任务](4.%20spring/7.%20spring_boot_4_job.pdf)
+- [Spring Boot 属性绑定](4.%20spring/7.%20spring_boot_2_propertiesBinding.pdf)
+- [Spring Boot 事务](4.%20spring/7.%20spring_boot_3_transaction.pdf) —— 回滚规则与传播行为
+- [Spring Boot 定时任务](4.%20spring/7.%20spring_boot_4_job.pdf)
 - [Spring Cloud 微服务](4.%20spring/7.%20spring_cloud_%E5%BE%AE%E6%9C%8D%E5%8A%A1.pdf)
 - [Spring MVC × Tomcat 启动部署总结](4.%20spring/8.%20spring_startup_summary.pdf) —— Engine→Host→Context→Wrapper 容器树与 war 部署全程
 
