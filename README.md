@@ -70,4 +70,4 @@ Java Concurrency in Practice · Effective Java · 深入理解Java虚拟机 · G
 
 ---
 
-*作者：Annie Tian —— 10 年后端开发（IBM / 平安普惠），微服务与消息系统方向。笔记均产自源码研读过程，欢迎拍砖。*
+*作者：Annie Tian —— 7年+后端开发（IBM / 平安普惠），微服务与消息系统方向。笔记均产自源码研读过程，欢迎拍砖。*
