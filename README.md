@@ -1,8 +1,8 @@
-**Java 源码学习笔记 —— 用图还原每一条执行链路**
+**Java 源码学习笔记**
 
-38篇源码笔记 + 11张流程图，基于JDK 8/16、Spring 5、Spring Boot 2、RocketMQ 4.x、Redis 源码
+基于JDK 8/16、Spring 5、Spring Boot 2、RocketMQ 4.x、Redis 源码
 
-源码产出内容：
+笔记内容：
 
 - ① 调用链（入口方法出发，穷尽分支）
 - ② 整体流程概括（文字版，流程图版）
