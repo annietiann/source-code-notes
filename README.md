@@ -28,7 +28,7 @@
 - 📊 [CMS vs G1 vs ZGC 对比表](0.%20jvm/5.%20CMS_vs_G1.pdf) —— 原理/优点/缺点/适用场景逐项对照
 - 📄 [类加载触发点](0.%20jvm/6.%20Class_Loading.pdf) —— 解释器执行 _invokestatic/_new 等指令时经 ConstantPool::klass_at 解析符号
 
-**1. 并发编程（concurrency/）—— 覆盖面最全的一块**
+**1. 并发编程（concurrency/）**
 - 🖼 [Synchronized 锁升级](1.%20concurrency/7.%20Synchronized_流程图.svg) ｜ [ReentrantLock](1.%20concurrency/7.%20ReentrantLock_流程图.svg) ｜ [读写锁](1.%20concurrency/7.%20ReentrantReadWriteLock_流程图.svg) ｜ [线程池](1.%20concurrency/7.%20ThreadPool_流程图.svg) ｜ [九队列对比](1.%20concurrency/7.%20collections_queues_流程图.svg)
 - 📄 [monitorenter 字节码视角](1.%20concurrency/1.%20basics_Synchronized.pdf) ｜ [volatile 与内存屏障](1.%20concurrency/1.%20basics_volatile_jdk8.pdf) —— 解释器 switch(opcode) 里的锁与屏障
 - 📄 [AQS 总纲](1.%20concurrency/3.%20locks_1_AQS.pdf) —— ReentrantLock/CountDownLatch/Semaphore 共用骨架：acquire → addWaiter → acquireQueued → park
