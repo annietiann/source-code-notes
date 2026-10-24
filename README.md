@@ -1,4 +1,4 @@
-**Java 源码学习笔记（基于JDK 8/16、Spring 5、Spring Boot 2、RocketMQ 4.x、Redis 源码）**
+# Java 源码学习笔记（基于JDK 8/16、Spring 5、Spring Boot 2、RocketMQ 4.x、Redis 源码）
 
 笔记类型：
 
@@ -9,7 +9,7 @@
 
 共 38 篇笔记 + 11 张流程图
 
-**0. JVM**
+## 0. JVM
 - [Hotspot 启动流程（JDK16）](0.%20jvm/1.%20Hotspot_Launch_Process_JDK16.pdf) —— main.c → JLI_Launch → JVMInit → 新线程继续执行主干链
 - [Hotspot 启动流程（JDK8）](0.%20jvm/2.%20Hotspot_Launch_Process_JDK8.pdf) —— 与 JDK16 版对照阅读，**双版本文件路径与结构差异**
 - [Heap 初始化（JDK8）](0.%20jvm/3.%20Heap_Init_JDK8.pdf) —— 启动主干到 universe 初始化、两代堆空间成型
@@ -19,7 +19,7 @@
 - [CMS GC 全流程（JDK8）](0.%20jvm/7.%20GC_CMS_JDK8.svg)
 - [G1 GC 全流程（JDK8）](0.%20jvm/7.%20GC_G1_JDK8.svg)
 
-**1. 并发编程**
+## 1. 并发编程
 - [monitorenter 字节码视角](1.%20concurrency/1.%20basics_Synchronized.pdf) —— 解释器 switch(opcode) 里的锁
 - [volatile 与内存屏障](1.%20concurrency/1.%20basics_volatile_jdk8.pdf) —— 解释器 switch(opcode) 里的屏障
 - [ThreadPoolExecutor](1.%20concurrency/2.%20executors_1_ThreadPoolExecutor.pdf) —— 含 Executors 三大工厂池容量陷阱
@@ -41,13 +41,13 @@
 - [线程池执行流程图](1.%20concurrency/7.%20ThreadPool_流程图.svg)
 - [九种并发队列对比图](1.%20concurrency/7.%20collections_queues_流程图.svg)
 
-**3. JDK 类库**
+## 3. JDK 类库
 - [压缩流装饰器链路](3.%20jdk/compress.svg) —— Java IO 流体系（java.io / java.util.zip）
 - [函数式编程](3.%20jdk/jdk8_features_functional_programming.pdf)
 - [Stream 实战笔记](3.%20jdk/jdk8_features_streams.pdf)
 - [Stream 执行模型](3.%20jdk/stream.svg) —— sink 链与并行拆分
 
-**4. Spring 全家桶**
+## 4. Spring 全家桶
 - [IoC 容器](4.%20spring/1.%20IoC.pdf)
 - [AOP 代理创建](4.%20spring/2.%20AOP.pdf) —— doCreateBean → 代理链
 - [MVC 容器初始化](4.%20spring/3.%20MVC.pdf)
@@ -60,18 +60,18 @@
 - [定时任务](4.%20spring/7.%20spring_boot_4_job.pdf)
 - [Spring MVC × Tomcat 启动部署总结](4.%20spring/8.%20spring_startup_summary.pdf) —— Engine→Host→Context→Wrapper 容器树与 war 部署全程
 
-**5. 消息中间件**
+## 5. 消息中间件
 - [SpringBoot × RocketMQ 集成启动流程](5.%20middleware/RocketMQ.pdf) —— starter 自动装配 → ListenerContainerConfiguration 注册 → 消费者拉取启动全程
 - [RocketMQ 消费端源码链路](5.%20middleware/RocketMQ.svg) —— 双线程循环、长轮询、ProcessQueue 流控、位点异步上报全链路
 
-**6. Redis**
+## 6. Redis
 - [Redis 分布式锁实战](6.%20redis/使用场景.pdf) —— SET NX PX + lua 解锁缺陷分析 → Redlock 争议，附生产实践
 - [Redis 高可用全家桶](6.%20redis/复制_哨兵_集群_内存优化_事务_缓存.pdf) —— 复制握手→首次全量→命令传播→哨兵故障转移→集群分区与迁移
 
-**7. 操作系统与 I/O**
+## 7. 操作系统与 I/O
 - [零拷贝四种方案](7.%20os/zero_copy_流程图.svg) —— read/write → mmap → sendfile → sendfile+DMA → splice；RocketMQ 用 mmap、Kafka 用 sendfile 的选型逻辑
 
-**书单（源码研读时的参照）**
+## 书单（源码研读时的参照）
 
 Java Concurrency in Practice · Effective Java · 深入理解Java虚拟机 · G1GC 算法与实现 · Concurrency in Java (Brian Goetz) · Modern Java in Action · Programming Concurrency on the JVM · Java并发编程之美 · Design Patterns (GoF) · Head First Design Patterns
 
