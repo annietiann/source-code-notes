@@ -10,7 +10,7 @@
 |---|---|
 | [Synchronized 锁升级](1.%20concurrency/7.%20Synchronized_流程图.svg) | 偏向锁(mark word + epoch 重偏向) → 轻量锁(Lock Record CAS) → 重量锁(monitor 膨胀)，撤销与升级全部在 safe point 完成 |
 | [并发队列对比](1.%20concurrency/7.%20collections_queues_流程图.svg) | 9 种 BlockingQueue/并发集合的存储结构与同步手段（整锁 / 双锁分离 / 纯 CAS）逐项对比 |
-| [零拷贝演进](os/zero_copy_流程图.svg) | read/write → mmap → sendfile → sendfile+DMA → splice，逐层去掉 cpu copy 与用户态切换；RocketMQ 用 mmap，Kafka 用 sendfile |
+| [零拷贝演进](7.%20os/zero_copy_流程图.svg) | read/write → mmap → sendfile → sendfile+DMA → splice，逐层去掉 cpu copy 与用户态切换；RocketMQ 用 mmap，Kafka 用 sendfile |
 | [RocketMQ 消费端链路](5.%20middleware/RocketMQ.svg) | PullMessageService 与 RebalanceService 双线程循环：20s 定时 + Broker 通知触发 rebalance，结果按粒度拆成 ConsumeRequest 投入消费线程池 |
 | [线程池执行流程](1.%20concurrency/7.%20ThreadPool_流程图.svg) | ScheduledThreadPoolExecutor 的 worker 取任务(DelayedWorkQueue.take)、周期回队与 tryTerminate 逐级终止 |
 | [CMS GC 全流程（JDK8）](0.%20jvm/7.%20GC_CMS_JDK8.svg) | GenCollectedHeap 初始化 ParNew + ASCMS 两代 → 分配失败触发 VM_GenCollectForAllocation → WorkGang 发布任务并发执行 |
@@ -60,8 +60,8 @@
 - 📄 [Redis 高可用全家桶](6.%20redis/复制_哨兵_集群_内存优化_事务_缓存.pdf) —— 复制握手→首次全量→命令传播→哨兵故障转移→集群分区与迁移
 - 📄 [Redis 分布式锁实战](6.%20redis/使用场景.pdf) —— SET NX PX + lua 解锁缺陷分析 → Redlock 争议，附生产实践
 
-### os. 操作系统与 I/O（os/）
-- 🖼 [零拷贝四种方案](os/zero_copy_流程图.svg) —— read/write → mmap → sendfile → sendfile+DMA → splice；RocketMQ 用 mmap、Kafka 用 sendfile 的选型逻辑
+### 7. 操作系统与 I/O（os/）
+- 🖼 [零拷贝四种方案](7.%20os/zero_copy_流程图.svg) —— read/write → mmap → sendfile → sendfile+DMA → splice；RocketMQ 用 mmap、Kafka 用 sendfile 的选型逻辑
 - ⏳ 待上架：Memory Barriers、epoll 与 IO 多路复用
 
 ## 书单（源码研读时的参照）
