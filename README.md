@@ -15,9 +15,9 @@
 共 38 篇笔记 + 11 张流程图
 
 **0. JVM**
-- [Hotspot启动流程Jdk16](0.%20jvm/1.%20Hotspot_Launch_Process_JDK16.pdf) jvm的初始化,main方法的执行,类加载过程
+- [Hotspot启动流程Jdk16](0.%20jvm/1.%20Hotspot_Launch_Process_JDK16.pdf) jvm的初始化, main方法的执行, 类加载过程
 - [Hotspot启动流程Jdk8](0.%20jvm/2.%20Hotspot_Launch_Process_JDK8.pdf)
-- [Heap初始化Jdk8](0.%20jvm/3.%20Heap_Init_JDK8.pdf) 新生代/老年代的初始化,GC线程的创建,并发标记过程,Major GC和Full GC
+- [Heap初始化Jdk8](0.%20jvm/3.%20Heap_Init_JDK8.pdf) 新生代/老年代的初始化, GC线程的创建, 并发标记过程, Major GC和Full GC
 - [Heap分配内存与GC](0.%20jvm/4.%20Heap分配内存与GC_JDK8.pdf)
 - [CMS GC流程Jdk8](0.%20jvm/7.%20GC_CMS_JDK8.svg)
 - [G1 GC流程Jdk8](0.%20jvm/7.%20GC_G1_JDK8.svg)
@@ -35,8 +35,8 @@
 - [AQS](1.%20concurrency/3.%20locks_1_AQS.pdf) 模板方法模式经典实现
 - [ReentrantLock](1.%20concurrency/3.%20locks_2_ReentrantLock.pdf)
 - [ReentrantReadWriteLock](1.%20concurrency/3.%20locks_3_ReentrantReadWriteLock.pdf)
-- [ConcurrentHashMap](1.%20concurrency/4.%20collections_ConcurrentHashMap.pdf) Node/TreeBin结构,bucket定位规律与协同扩容机制
-- [HashMap](1.%20concurrency/4.%20collections_HashMap.pdf) hash扰动计算,负载因子与2倍扩容机制
+- [ConcurrentHashMap](1.%20concurrency/4.%20collections_ConcurrentHashMap.pdf) Node/TreeBin结构, bucket定位规律与协同扩容机制
+- [HashMap](1.%20concurrency/4.%20collections_HashMap.pdf) hash扰动计算, 负载因子与2倍扩容机制
 - [并发容器全景对比表](1.%20concurrency/4.%20collections_summary.pdf) 并发Queue/Map的设计取舍横向对比
 - [五大同步器速查表](1.%20concurrency/5.%20synchronizers.pdf) 使用场景及用法
 - [ThreadLocal](1.%20concurrency/6.%20ThreadLocal.pdf)
@@ -53,21 +53,21 @@
 - [Stream 执行模型](3.%20jdk/stream.svg) 并行vs串行
 
 **4. Spring 全家桶**
-- [IoC](4.%20spring/1.%20IoC.pdf) Bean生命周期与三级缓存,依赖注入方式,循环依赖解决
-- [AOP](4.%20spring/2.%20AOP.pdf) XMLvs注解式, 切面类的加载,proxy的创建,拦截器执行顺序
-- [MVC](4.%20spring/3.%20MVC.pdf) DispatcherServlet请求处理全链路,视图解析与渲染
-- [RESTful × MyBatis](4.%20spring/4.%20RESTful_MyBatis.pdf) 请求解析,返回内容的协商
+- [IoC](4.%20spring/1.%20IoC.pdf) Bean生命周期与三级缓存, 依赖注入方式, 循环依赖解决
+- [AOP](4.%20spring/2.%20AOP.pdf) XML/注解式,  切面类的加载, proxy的创建, 拦截器执行顺序
+- [MVC](4.%20spring/3.%20MVC.pdf) DispatcherServlet请求处理全链路, 视图解析与渲染
+- [RESTful × MyBatis](4.%20spring/4.%20RESTful_MyBatis.pdf) 请求解析, 返回内容的协商
 - [MultipartResolver 文件上传](4.%20spring/5.%20MultipartResolver.pdf)
 - [全局异常处理](4.%20spring/6.%20GlobalExceptionHandler.pdf)
-- [Spring Boot 启动流程](4.%20spring/7.%20spring_boot_1_startup.pdf) 自动装配与Starter机制,内嵌容器的创建与启动链
+- [Spring Boot 启动流程](4.%20spring/7.%20spring_boot_1_startup.pdf) 自动装配与Starter机制, 内嵌容器的创建与启动链
 - [Spring Boot 属性绑定](4.%20spring/7.%20spring_boot_2_propertiesBinding.pdf)
 - [Spring Boot 事务](4.%20spring/7.%20spring_boot_3_transaction.pdf)
 - [Spring Boot 定时任务](4.%20spring/7.%20spring_boot_4_job.pdf)
-- [Spring Cloud 微服务](4.%20spring/7.%20spring_cloud_%E5%BE%AE%E6%9C%8D%E5%8A%A1.pdf) 服务注册发现,负载均衡,服务间调用,熔断/限流与分布式事务
+- [Spring Cloud 微服务](4.%20spring/7.%20spring_cloud_%E5%BE%AE%E6%9C%8D%E5%8A%A1.pdf) 服务注册发现, 负载均衡, 服务间调用, 熔断/限流与分布式事务
 - [Spring MVC × Tomcat 启动部署总结](4.%20spring/8.%20spring_startup_summary.pdf)
 
 **5. 消息中间件**
-- [SpringBoot × RocketMQ](5.%20middleware/RocketMQ.pdf) 生产者/消费者启动,队列分配与重平衡,拉取消费,重试机制,remoting通信层
+- [SpringBoot × RocketMQ](5.%20middleware/RocketMQ.pdf) 生产者/消费者启动, 队列分配与重平衡, 拉取消费, 重试机制, remoting通信层
 - [RocketMQ 消费端流程](5.%20middleware/RocketMQ.svg)
 
 **6. Redis**
