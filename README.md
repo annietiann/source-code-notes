@@ -4,18 +4,6 @@
 > 我的方法：**每个主题产出"三件套"** —— ① 执行链路流程图（从入口方法出发，穷尽分支）② 类继承图 ③ 场景对比表。
 > 能画图，才算读懂；能对比，才算会用。
 
-**⭐ 精选（建议按此顺序阅读）**
-
-| 图解 | 一句话结论 |
-|---|---|
-| [Synchronized 锁升级](1.%20concurrency/7.%20Synchronized_流程图.svg) | 偏向锁(mark word + epoch 重偏向) → 轻量锁(Lock Record CAS) → 重量锁(monitor 膨胀)，撤销与升级全部在 safe point 完成 |
-| [并发队列对比](1.%20concurrency/7.%20collections_queues_流程图.svg) | 9 种 BlockingQueue/并发集合的存储结构与同步手段（整锁 / 双锁分离 / 纯 CAS）逐项对比 |
-| [零拷贝演进](7.%20os/zero_copy_流程图.svg) | read/write → mmap → sendfile → sendfile+DMA → splice，逐层去掉 cpu copy 与用户态切换；RocketMQ 用 mmap，Kafka 用 sendfile |
-| [RocketMQ 消费端链路](5.%20middleware/RocketMQ.svg) | PullMessageService 与 RebalanceService 双线程循环：20s 定时 + Broker 通知触发 rebalance，结果按粒度拆成 ConsumeRequest 投入消费线程池 |
-| [线程池执行流程](1.%20concurrency/7.%20ThreadPool_流程图.svg) | ScheduledThreadPoolExecutor 的 worker 取任务(DelayedWorkQueue.take)、周期回队与 tryTerminate 逐级终止 |
-| [CMS GC 全流程（JDK8）](0.%20jvm/7.%20GC_CMS_JDK8.svg) | GenCollectedHeap 初始化 ParNew + ASCMS 两代 → 分配失败触发 VM_GenCollectForAllocation → WorkGang 发布任务并发执行 |
-| [G1 GC 全流程（JDK8）](0.%20jvm/7.%20GC_G1_JDK8.svg) | G1CollectedHeap 创建 HeapRegion 与并发标记线程；GangWorker 基于 cxq / onDeck / WaitSet 的取任务竞争模型 |
-
 **内容地图**
 
 **0. JVM（jvm/）**
