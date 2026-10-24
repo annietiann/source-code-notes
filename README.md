@@ -25,10 +25,10 @@
 - [G1 GC 全流程（JDK8）](0.%20jvm/7.%20GC_G1_JDK8.svg)
 
 **1. 并发编程**
-- [monitorenter 字节码视角](1.%20concurrency/1.%20Synchronized.pdf)
-- [volatile 与内存屏障](1.%20concurrency/1.%20volatile_jdk8.pdf)
-- [ThreadPoolExecutor](1.%20concurrency/2.%20executors_1_ThreadPoolExecutor.pdf)
-- [ScheduledThreadPoolExecutor](1.%20concurrency/2.%20executors_2_ScheduledThreadPoolExecutor.pdf)
+- [Synchronized的一切](1.%20concurrency/1.%20Synchronized.pdf) --锁膨胀过程
+- [volatile与内存屏障](1.%20concurrency/1.%20volatile_jdk8.pdf) 
+- [ThreadPoolExecutor](1.%20concurrency/2.%20executors_1_ThreadPoolExecutor.pdf) --thread worker的一生
+- [ScheduledThreadPoolExecutor](1.%20concurrency/2.%20executors_2_ScheduledThreadPoolExecutor.pdf) --延时队列DelayedWorkQueue,worker取任务与周期回队
 - [FutureTask](1.%20concurrency/2.%20executors_3_FutureTask.pdf)
 - [CompletableFuture](1.%20concurrency/2.%20executors_4_CompletableFuture.pdf)
 - [ForkJoinPool](1.%20concurrency/2.%20executors_5_ForkJoinPool.pdf)
@@ -48,22 +48,22 @@
 
 **3. JDK 类库**
 - [压缩流装饰器链路](3.%20jdk/compress.svg)
-- [函数式编程](3.%20jdk/jdk8_features_functional_programming.pdf)
-- [Stream 实战笔记](3.%20jdk/jdk8_features_streams.pdf)
-- [Stream 执行模型](3.%20jdk/stream.svg)
+- [函数式编程](3.%20jdk/jdk8_features_functional_programming.pdf) --lambda实现原理
+- [Stream 实战笔记](3.%20jdk/jdk8_features_streams.pdf) --流水线的装配和启动
+- [Stream 执行模型](3.%20jdk/stream.svg) --并行vs串行
 
 **4. Spring 全家桶**
-- [IoC 容器](4.%20spring/1.%20IoC.pdf)
-- [AOP 代理创建](4.%20spring/2.%20AOP.pdf)
-- [MVC 容器初始化](4.%20spring/3.%20MVC.pdf)
-- [RESTful × MyBatis 全链路](4.%20spring/4.%20RESTful_MyBatis.pdf)
+- [IoC](4.%20spring/1.%20IoC.pdf) --IoC详细过程,依赖注入方式,循环依赖解决方案
+- [AOP](4.%20spring/2.%20AOP.pdf) --XMLvs注解式, 切面类的加载,proxy的创建,拦截器执行顺序
+- [MVC](4.%20spring/3.%20MVC.pdf) --HTTP请求处理流程,视图的解析和渲染
+- [RESTful × MyBatis](4.%20spring/4.%20RESTful_MyBatis.pdf) --请求解析,返回内容的协商
 - [MultipartResolver 文件上传](4.%20spring/5.%20MultipartResolver.pdf)
 - [全局异常处理](4.%20spring/6.%20GlobalExceptionHandler.pdf)
-- [Spring Boot 启动流程](4.%20spring/7.%20spring_boot_1_startup.pdf)
+- [Spring Boot 启动流程](4.%20spring/7.%20spring_boot_1_startup.pdf) --自动装配底层实现,内嵌服务器的创建启动
 - [Spring Boot 属性绑定](4.%20spring/7.%20spring_boot_2_propertiesBinding.pdf)
 - [Spring Boot 事务](4.%20spring/7.%20spring_boot_3_transaction.pdf)
 - [Spring Boot 定时任务](4.%20spring/7.%20spring_boot_4_job.pdf)
-- [Spring Cloud 微服务](4.%20spring/7.%20spring_cloud_%E5%BE%AE%E6%9C%8D%E5%8A%A1.pdf)
+- [Spring Cloud 微服务](4.%20spring/7.%20spring_cloud_%E5%BE%AE%E6%9C%8D%E5%8A%A1.pdf) --服务治理,负载均衡,跨服务通信,熔断限流,分布式事务
 - [Spring MVC × Tomcat 启动部署总结](4.%20spring/8.%20spring_startup_summary.pdf)
 
 **5. 消息中间件**
