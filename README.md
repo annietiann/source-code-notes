@@ -29,7 +29,6 @@
 **3. JDK 类库（jdk/）**
 - [Stream 执行模型](3.%20jdk/stream.svg)（sink 链与并行拆分）｜ [压缩流装饰器链路](3.%20jdk/compress.svg) —— Java IO 流体系（java.io / java.util.zip）
 - [Stream 实战笔记](3.%20jdk/jdk8_features_streams.pdf) ｜ [函数式编程](3.%20jdk/jdk8_features_functional_programming.pdf)
-- ⏳ 待上架：Java NIO（Selector/Channel）、序列化
 
 **4. Spring 全家桶（spring/）**
 - [IoC 容器](4.%20spring/1.%20IoC.pdf) ｜ [AOP 代理创建](4.%20spring/2.%20AOP.pdf)（doCreateBean → 代理链）
@@ -48,7 +47,6 @@
 
 **7. 操作系统与 I/O（os/）**
 - [零拷贝四种方案](7.%20os/zero_copy_流程图.svg) —— read/write → mmap → sendfile → sendfile+DMA → splice；RocketMQ 用 mmap、Kafka 用 sendfile 的选型逻辑
-- ⏳ 待上架：Memory Barriers、epoll 与 IO 多路复用
 
 **书单（源码研读时的参照）**
 
