@@ -9,6 +9,10 @@
 
 共 38 篇笔记 + 11 张流程图
 
+**Summary**
+
+Java source-code reading notes based on JDK 8/16, Spring 5, Spring Boot 2, RocketMQ 4.x and Redis. Each topic is documented as call chains traced from the entry method (exhaustive branches), overall flow summaries (text or diagrams), class hierarchy charts, and cross-comparison tables — 38 notes plus 11 execution-flow diagrams in total. Maintained by a senior backend developer (IBM / Ping An Puhui, microservices & messaging).
+
 **0. JVM**
 - [Hotspot 启动流程（JDK16）](0.%20jvm/1.%20Hotspot_Launch_Process_JDK16.pdf) —— main.c → JLI_Launch → JVMInit → 新线程继续执行主干链
 - [Hotspot 启动流程（JDK8）](0.%20jvm/2.%20Hotspot_Launch_Process_JDK8.pdf) —— 与 JDK16 版对照阅读，**双版本文件路径与结构差异**
