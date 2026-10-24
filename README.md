@@ -14,7 +14,7 @@
 
 共 38 篇笔记 + 11 张流程图
 
-**0. JVM**
+<font color="#F27200">**0. JVM**</font>
 - [Hotspot启动流程JDK16](0.%20jvm/1.%20Hotspot_Launch_Process_JDK16.pdf) jvm的初始化,main方法的执行,类加载过程
 - [Hotspot启动流程JDK8](0.%20jvm/2.%20Hotspot_Launch_Process_JDK8.pdf)
 - [Heap初始化（JDK8）](0.%20jvm/3.%20Heap_Init_JDK8.pdf) 新生代/老年代的初始化,GC线程的创建,并发标记过程,Major GC和Full GC
@@ -24,7 +24,7 @@
 - [CMS GC流程（JDK8）](0.%20jvm/7.%20GC_CMS_JDK8.svg)
 - [G1 GC流程（JDK8）](0.%20jvm/7.%20GC_G1_JDK8.svg)
 
-**1. 并发编程**
+<font color="#F27200">**1. 并发编程**</font>
 - [Synchronized的一切](1.%20concurrency/1.%20Synchronized.pdf) 锁膨胀过程
 - [volatile与内存屏障](1.%20concurrency/1.%20volatile_jdk8.pdf) 
 - [ThreadPoolExecutor](1.%20concurrency/2.%20executors_1_ThreadPoolExecutor.pdf) thread worker的一生
@@ -46,13 +46,13 @@
 - [Synchronized锁膨胀流程图](1.%20concurrency/7.%20Synchronized_流程图.svg)
 - [九种并发队列对比图](1.%20concurrency/7.%20collections_queues_流程图.svg) 入队出队
 
-**3. JDK 类库**
+<font color="#F27200">**3. JDK 类库**</font>
 - [压缩流装饰器链路](3.%20jdk/compress.svg)
 - [函数式编程](3.%20jdk/jdk8_features_functional_programming.pdf) lambda实现原理
 - [Stream 实战笔记](3.%20jdk/jdk8_features_streams.pdf) 流水线的装配和启动
 - [Stream 执行模型](3.%20jdk/stream.svg) 并行vs串行
 
-**4. Spring 全家桶**
+<font color="#F27200">**4. Spring 全家桶**</font>
 - [IoC](4.%20spring/1.%20IoC.pdf) IoC详细过程,依赖注入方式,循环依赖解决方案
 - [AOP](4.%20spring/2.%20AOP.pdf) XMLvs注解式, 切面类的加载,proxy的创建,拦截器执行顺序
 - [MVC](4.%20spring/3.%20MVC.pdf) HTTP请求处理流程,视图的解析和渲染
@@ -66,15 +66,15 @@
 - [Spring Cloud 微服务](4.%20spring/7.%20spring_cloud_%E5%BE%AE%E6%9C%8D%E5%8A%A1.pdf) 服务治理,负载均衡,跨服务通信,熔断限流,分布式事务
 - [Spring MVC × Tomcat 启动部署总结](4.%20spring/8.%20spring_startup_summary.pdf)
 
-**5. 消息中间件**
+<font color="#F27200">**5. 消息中间件**</font>
 - [SpringBoot × RocketMQ](5.%20middleware/RocketMQ.pdf) 启动,负载均衡,异步拉取,消费,同步重试,底层通信
 - [RocketMQ 消费端流程](5.%20middleware/RocketMQ.svg)
 
-**6. Redis**
+<font color="#F27200">**6. Redis**</font>
 - [Redis 分布式锁实战](6.%20redis/使用场景.pdf)
 - [Redis 高可用全家桶](6.%20redis/复制_哨兵_集群_内存优化_事务_缓存.pdf)
 
-**7. 操作系统与 I/O**
+<font color="#F27200">**7. 操作系统与 I/O**</font>
 - [零拷贝四种方案](7.%20os/zero_copy_流程图.svg)
 
 **书单（源码研读时的参照）**
